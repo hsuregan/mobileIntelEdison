@@ -68,3 +68,39 @@ cat ./ludwig/fast.csv
 ./imu_data > ./ludwig/turn.csv
 ./imu_data > ./ludwig/turn2.csv
 ./imu_data > ./ludwig/walk_and_jump.csv
+ls
+cd IM
+cd IMU/
+ls
+cd ludwig/
+ls
+ls
+cd ..
+ls
+cd ..
+ls
+git init
+git add .
+git commit -m 'mobileIntelEdison
+'
+git status
+git remote
+ls
+git remote add origin https://github.com/hsuregan/mobileIntelEdison.git
+git push -u origin master
+ls
+ls
+cd IMU
+ls
+git add .
+git commit =m 'needed data'
+cd ludwig
+ls
+git init
+git commit -m 'accel and gyro data'
+ls
+cd ..
+ls
+cd imu_data.c
+ls
+vim imu_data.c
