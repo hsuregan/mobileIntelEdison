@@ -7,14 +7,19 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/usleep
+
 # Command Line History (newest to oldest):
-:quit
 :q
+:/usleep
 :w
+:quit
 :wq
 :59
 
 # Search String History (newest to oldest):
+? usleep
 
 # Expression History (newest to oldest):
 
@@ -81,18 +86,20 @@
 	s
 
 # File marks:
-'0  83  0  ~/IMU/imu_data.c
-'1  29  19  ~/IMU/imu_data.c
-'2  128  0  ~/IMU/LSM9DS0.h
-'3  35  34  ~/IMU/imu_data.c
-'4  1  0  ~/IMU/test.csv
-'5  48  97  ~/IMU/imu_data.c
-'6  60  0  ~/IMU/imu_data.c
-'7  79  0  ~/IMU/imu_data.c
-'8  61  2  ~/IMU/imu_data.c
-'9  54  22  ~/IMU/imu_data.c
+'0  89  2  ~/IMU/imu_data.c
+'1  39  24  ~/IMU/imu_data.c
+'2  83  0  ~/IMU/imu_data.c
+'3  29  19  ~/IMU/imu_data.c
+'4  128  0  ~/IMU/LSM9DS0.h
+'5  35  34  ~/IMU/imu_data.c
+'6  1  0  ~/IMU/test.csv
+'7  48  97  ~/IMU/imu_data.c
+'8  60  0  ~/IMU/imu_data.c
+'9  79  0  ~/IMU/imu_data.c
 
 # Jumplist (newest first):
+-'  89  2  ~/IMU/imu_data.c
+-'  39  24  ~/IMU/imu_data.c
 -'  83  0  ~/IMU/imu_data.c
 -'  29  19  ~/IMU/imu_data.c
 -'  35  34  ~/IMU/imu_data.c
@@ -192,12 +199,9 @@
 # History of marks within files (newest to oldest):
 
 > ~/IMU/imu_data.c
-	"	83	0
-	^	31	20
-	.	29	19
-	+	61	59
-	+	61	32
-	+	61	61
+	"	89	2
+	^	39	25
+	.	39	24
 	+	61	63
 	+	80	0
 	+	10	42
@@ -295,6 +299,9 @@
 	+	29	19
 	+	31	19
 	+	29	19
+	+	38	19
+	+	40	19
+	+	39	24
 
 > ~/IMU/LSM9DS0.h
 	"	128	0
